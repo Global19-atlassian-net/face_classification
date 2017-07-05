@@ -2,8 +2,9 @@ import cv2
 from keras.models import load_model
 import numpy as np
 from statistics import mode
-from utils import preprocess_input
+from ml import utils
 from utils import get_labels
+from utils import preprocess_input
 
 def process_image(image):
 

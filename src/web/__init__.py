@@ -1,2 +1,2 @@
-from ../. import utils
-from ../. import generator
+from ... import utils
+from ... import generator
